@@ -4769,6 +4769,7 @@ GameObject:
   - component: {fileID: 5257863131937937921}
   - component: {fileID: 7212425973342662250}
   - component: {fileID: 6502942927190569212}
+  - component: {fileID: -7604786825306364952}
   m_Layer: 0
   m_Name: Right Ship
   m_TagString: Untagged
@@ -4892,3 +4893,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _particleSystem: {fileID: 5028736712303075039}
+--- !u!114 &-7604786825306364952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328730967777670050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bc07fcbfe0589478ab6139fb38e6b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

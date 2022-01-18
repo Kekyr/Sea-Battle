@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class Common : MonoBehaviour
 {
-    public static Common instance { get; private set; }
-
-    private void Awake()
-    {
-        instance = this;
-    }
     
     public  IEnumerator WaitAndDestroy(GameObject gameObject)
     {

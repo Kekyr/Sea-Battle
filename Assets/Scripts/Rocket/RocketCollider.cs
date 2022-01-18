@@ -5,8 +5,15 @@ using UnityEngine;
 
 public class RocketCollider : MonoBehaviour
 {
+    private Common _common;
+
+    private void Start()
+    {
+        _common = GetComponent<Common>();
+    }
+    
     private void OnCollisionEnter(Collision collision)
     {
-        StartCoroutine(Common.instance.WaitAndDestroy(gameObject));
+        StartCoroutine(_common.WaitAndDestroy(gameObject));
     }
 }
